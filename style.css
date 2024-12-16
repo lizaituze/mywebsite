@@ -1,0 +1,332 @@
+body{
+
+    padding: 0;
+
+    margin: 0;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/*navigation*/
+
+header{
+
+    color: black;
+
+}
+
+header nav{
+
+    display: flex;
+
+  
+
+}
+
+nav ul{
+
+    display: flex;
+
+    list-style: none;
+
+    
+
+
+}
+
+nav ul li{
+
+    padding:10px;
+
+    
+
+}
+
+nav ul li a{
+
+    text-decoration: none;
+
+    color: black;
+
+    font-size: 15px;
+
+    text-transform: uppercase;
+
+    padding: 28px 25px;
+
+    
+
+}
+
+nav ul li a:hover{
+
+    background-color: black;
+
+    color:white;
+
+
+
+   
+
+}
+
+/*banner main*/
+
+.banner {
+
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
+
+                url(images/christopher-gower-m_HRfLhgABo-unsplash.jpg);
+
+    background-size: cover;
+
+    background-repeat: no-repeat;
+
+    background-position: center;
+
+    height: 90vh;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    flex-direction: column;
+
+    text-align: center;
+
+    color: white;
+
+}
+
+.banner img {
+    transform: scale(0.8);  /* Scale down to 80% of the original size */
+    transition: transform 0.3s ease;  /* Smooth zoom effect */
+}
+
+.banner img:hover {
+    transform: scale(1);  /* Zoom back to original size on hover */
+}
+
+
+.banner h1 {
+
+    font-size: 6rem;
+
+    font-weight: bold;
+
+    z-index: 1;
+
+    margin-bottom: 30px;
+
+}
+
+.about {
+
+    padding: 20px 20px;
+
+    text-align: center;
+
+    background-color: #e5e5e8;
+
+    color: #333;
+
+    
+
+}
+
+.about h2 {
+
+    font-size: 2.5rem;
+
+    font-weight: 700;
+
+    margin-bottom: 20px;
+
+    color: #222;
+
+    text-transform: uppercase;
+    letter-spacing: 5px;
+
+}
+#technologies-section {
+    display: none; /* Hide technologies by default */
+  }
+  
+  button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #ddd; /* Add hover effect for buttons */
+  }
+  
+.about p {
+
+    font-size: 1rem;
+
+    font-weight: 400;
+
+    margin-bottom: 15px;
+
+    max-width: 600px;
+
+    margin: 0 auto;
+
+    color: #555;
+
+    line-height: 1.8;
+
+}
+
+
+
+.graphy{
+
+    background-color: #e5e5e8;
+
+    padding: 50px;
+
+    text-align: center;
+
+    font-size: 18px;
+
+    font-weight: 500;
+
+    flex-direction: column;
+
+    display: flex;
+
+}
+
+.recent {
+
+    text-align: center;
+
+    padding: 40px;
+
+    border-radius: 8px;
+
+}
+
+
+.recent h1 {
+
+    font-size: 3rem;
+
+    font-weight: bold;
+
+    letter-spacing: 7px;
+
+}
+.contact {
+
+    padding: 50px;
+
+    text-align: center;
+
+}
+.contact h1 {
+
+    font-size: 2rem;
+
+    font-weight: 700;
+
+    color: black;
+
+}
+.i {
+    color: #0077b5; /* LinkedIn blue */
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.contact p {
+
+    font-size: 1rem;
+
+    color: black;
+
+}
+
+#back-to-top {
+
+    display: none;
+
+    position: fixed;
+
+    bottom: 20px;
+
+    right: 20px;
+
+    padding: 10px;
+
+    background-color: #333;
+
+    color: white;
+
+    border: none;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 0; /* Ensure the body takes up the full height of the viewport */
+  }
+  
+  main {
+    flex-grow: 1; /* Main content grows to take remaining space */
+  }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure the body takes up the full height of the viewport */
+  }
+  
+  main {
+    flex-grow: 1; /* Main content grows to take remaining space */
+  }
+  
+.footer {
+    bottom: 20px;
+    right: 20px;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 14px;
+    text-align: right;
+}
+
+.icon-container{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-container img{
+    padding: 4rem;
+    width: 100px;
+    height: 100px;
+}
+.technologies{
+    text-align: center;
+}
+.social-container {
+    text-align: center; /* Center the icons */
+    margin-top: 20px;
+}
+
+.social-icon {
+    width: 40px;  /* Set the desired width */
+    height: 40px; /* Set the desired height */
+    padding: 3rem;
+}
+.email{
+    padding-bottom: 25px;
+}
